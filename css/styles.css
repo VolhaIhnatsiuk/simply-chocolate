@@ -82,6 +82,94 @@ img {
 
 /**
   |============================
+  | Header
+  |============================
+*/
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-top: 24px;
+  padding-bottom: 32px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111111;
+}
+
+.logo-span {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111111;
+}
+
+.nav-link {
+  padding-top: 24px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #fd9222;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  margin-left: 188px;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.header-socials {
+  display: flex;
+  margin-left: auto;
+  gap: 18px;
+}
+
+.header-socials-icon {
+  stroke: #111111;
+  fill: currentColor;
+}
+
+.header-socials-icon:hover,
+.header-socials-icon:focus {
+  stroke: #fd9222;
+}
+
+.header-socials-link {
+  padding-top: 24px;
+  padding-bottom: 32px;
+
+  color: transparent;
+}
+
+/**
+  |============================
   | Our products
   |============================
 */
