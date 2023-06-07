@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="header">
       <div class="header-container container">
         <nav class="header-nav">
@@ -80,6 +81,68 @@
         </ul>
       </div>
     </header>
+    <!-- Advantages -->
+    <section class="advantages">
+      <div class="adv-desktop container">
+        <h2 class="advantages-title visually-hidden">Advantages</h2>
+        <ul class="advantages-container">
+          <li class="advantages-item">
+            <svg
+              class="advantages-item-icon advantages-icon"
+              width="32"
+              height="32"
+            >
+              <use href="./images/icons.svg#icon-chocolate-bar"></use>
+            </svg>
+
+            <h3 class="advantages-title">Unsurpassed taste</h3>
+            <p class="advantages-section-text">
+              Crafted with the finest quality cocoa beans and a dedication to
+              perfection, each bite is a decadent experience that simply cannot
+              be matched. Savor the richness and complexity of our Unsurpassed
+              Taste and discover a new level of chocolate bliss.
+            </p>
+            <div class="advantages-line"></div>
+          </li>
+          <li class="advantages-item">
+            <svg
+              class="advantages-item-icon advantages-icon"
+              width="32"
+              height="32"
+            >
+              <use href="./images/icons.svg#icon-dollar"></use>
+            </svg>
+            <h3 class="advantages-title">Affordable price</h3>
+            <p class="advantages-section-text">
+              Indulge in high-quality chocolate without breaking the bank with
+              Simply Chocolate's selection of affordable treats. Enjoy
+              mouth-watering truffles and velvety chocolate bars without
+              sacrificing taste or quality. Browse our selection and indulge in
+              affordable luxury today.
+            </p>
+            <div class="advantages-line"></div>
+          </li>
+          <li class="advantages-item">
+            <svg
+              class="advantages-item-icon advantages-icon"
+              width="32"
+              height="32"
+            >
+              <use href="./images/icons.svg#icon-spoon"></use>
+            </svg>
+
+            <h3 class="advantages-title">Own production</h3>
+            <p class="advantages-section-text">
+              We take pride in our own production process, ensuring that every
+              step is carefully crafted to perfection. From selecting the finest
+              ingredients to handcrafting each piece, our attention to detail is
+              evident in every bite.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Our products -->
     <section class="products">
       <div class="container">
         <h2 class="products-title">
@@ -247,6 +310,95 @@
       </div>
     </section>
 
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="modal-close-btn js-close-menu">
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li class="item">
+          <a class="mobile-link link active" href="./index.html">Studio</a>
+        </li>
+        <li class="item">
+          <a class="mobile-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="item">
+          <a class="mobile-link link" href="">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-contacts list">
+        <li class="item">
+          <a class="contacts-tel link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="item">
+          <a class="contacts-mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="mobile-socials list">
+        <li class="footer-socials-item">
+          <a
+            class="footer-socials-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram icon"
+          >
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-socials-item">
+          <a
+            class="footer-socials-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter icon"
+          >
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-socials-item">
+          <a
+            class="footer-socials-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook icon"
+          >
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-socials-item">
+          <a
+            class="footer-socials-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Linkedin icon"
+          >
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <!-- Scripts -->
     <script
       type="text/javascript"
@@ -262,5 +414,14 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+
+    <!-- Mobile menu scripts -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
