@@ -79,6 +79,16 @@
             </a>
           </li>
         </ul>
+        <!-- Mobile menu button -->
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="burger-icon" width="28" height="28">
+            <use href="./images/icons.svg#icon-burger-icon"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- Advantages -->
@@ -309,92 +319,59 @@
     </section>
 
     <!-- Mobile menu -->
-    <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="modal-close-btn js-close-menu">
-        <svg class="modal-close-icon" width="8" height="8">
-          <use href="./images/icons.svg#close"></use>
-        </svg>
-      </button>
-
-      <ul class="mobile-menu list">
-        <li class="item">
-          <a class="mobile-link link active" href="./index.html">Studio</a>
-        </li>
-        <li class="item">
-          <a class="mobile-link link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="item">
-          <a class="mobile-link link" href="">Contacts</a>
-        </li>
-      </ul>
-
-      <ul class="mobile-contacts list">
-        <li class="item">
-          <a class="contacts-tel link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-        <li class="item">
-          <a class="contacts-mail link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-
-      <ul class="mobile-socials list">
-        <li class="footer-socials-item">
-          <a
-            class="footer-socials-link"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram icon"
-          >
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-socials-item">
-          <a
-            class="footer-socials-link"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter icon"
-          >
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-socials-item">
-          <a
-            class="footer-socials-link"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Facebook icon"
-          >
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-socials-item">
-          <a
-            class="footer-socials-link"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Linkedin icon"
-          >
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <div class="mobile-menu-container container">
+        <button class="menu-close-btn js-close-menu">
+          <svg class="menu-close-icon" width="20" height="20">
+            <use href="./images/icons.svg#icon-close-icon"></use>
+          </svg>
+        </button>
+        <ul class="mobile-nav-list list">
+          <li class="item">
+            <a class="mobile-nav-link link active" href="./index.html">Home</a>
+          </li>
+          <li class="mobile-nav-item item">
+            <a class="mobile-nav-link link" href="">How it’s made?</a>
+          </li>
+          <li class="mobile-nav-item iitem">
+            <a class="mobile-nav-link link" href="">Our products</a>
+          </li>
+          <li class="mobile-nav-item iitem">
+            <a class="mobile-nav-link link" href="">Top sellers</a>
+          </li>
+          <li class="mobile-nav-item iitem">
+            <a class="mobile-nav-link link" href="">Chocolate is loved</a>
+          </li>
+        </ul>
+        <ul class="mobile-socials list">
+          <li class="footer-socials-item">
+            <a
+              class="footer-socials-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram icon"
+            >
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-socials-item">
+            <a
+              class="footer-socials-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter icon"
+            >
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <!-- Scripts -->
